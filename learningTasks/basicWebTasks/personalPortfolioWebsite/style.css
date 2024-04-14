@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navBar{
+    overflow: hidden; /* what happens here is if we can not show some elment within the nav bar it will be trimmed, but since height is auto, height will change so that nothing will be trimmed. But in the case wehre overflow is visible then height won't change to accomadte anything and the contents will show outside the navbar */
+    margin: auto;
+    width: 80%;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+.NavBarItem{
+    float: left;
+    padding: 1.5vw 4.5%;
+}
+
+.customFontSzie{
+    font: 1.4vw 'Times New Roman', Times, serif;
+}
+
+a:link,a:visited {
+    color:black;
+  }
+  a:hover{
+    color:rgb(80,80,80);  
+  }
+  a:active{
+    color:green;
+  }
+.clickable{
+    text-decoration: none;
+}
+.clear{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.homeContent{
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+
+.homeContent img{
+    display: block;
+    margin: auto;
+    width: 30vw ;
+    height: 35vw ;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.aboutContent{
+    padding: 1vw;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+.educationList{
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+.not_decorated{
+    list-style-type: none;
+}
+
+.UofK{
+    margin: 1vw;
+}
+
+.backgroundImage{
+    height: 1000px;
+    background-image: url("Images/portfolioBackGround.jpg");
+}
