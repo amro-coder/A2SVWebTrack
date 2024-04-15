@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    margin: 8% auto;
+    background-color: #ccc;
+    padding: 70px 100px;  
+    justify-content: space-between;
+    height: 300px;
+}
+
+.form h1{
+    align-self: center;
+}
+
+.form .signUp{
+    width: 100%;
+    align-self: center;
+    background-color: black;
+    color: white;
+}
+
+.form .signUp:hover{
+    background: gray;
+}
+
+.form .msg{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
