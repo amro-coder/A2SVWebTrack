@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.toDoList{
+    display: flex;
+    margin: 10% auto;
+    width: 80%;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.toDoListHead{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.toDoListHead button{
+    background-color: inherit;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.toDoListHead button:hover{
+    background-color:#111
+}
+
+.taskWrapper{
+    width: 100%;
+    overflow: hidden;
+}
+.task{
+    display: flex;
+    align-self: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+.task:hover{
+    background-color:#111;
+}
+.task .circle{
+    width: 30px;
+    height: 30px;
+    background-color: inherit;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+.task .circle:hover{
+    background-image: url("images/whiteCheck.png");
+    border-radius: 30px;
+    border: 1px solid white;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.task .name{
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+
+.sep{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
